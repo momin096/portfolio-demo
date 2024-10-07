@@ -63,9 +63,9 @@ header{
 
 /* Banner */
 .banner{
-    background-image: url(/images/header_bg.png);
+    background-image: url(/images/header_bg.png), url(/images/developer.png);
     background-repeat: no-repeat;
-    background-position: right bottom ;
+    background-position: right bottom, left;
     display: flex;
     align-items: center;
 }
