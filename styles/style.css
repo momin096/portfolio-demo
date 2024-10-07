@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.open-sans{
+    font-family: "Open Sans", sans-serif;
+}
+
+.text-primary{
+    color: #FD6E0A;
+
+}
+.background-primary{
+    background-color: #FD6E0A;
+}
+.max-width{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #FFF8F3;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav > h3{
+    font-size: 45px;
+    font-weight: 800;
+}
+.nav > ul {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    
+}
+
+.nav > ul > li{
+    list-style: none;
+}
+
+.nav > ul > li > a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nav > ul > li > button{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 13px 20px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Banner */
+.banner{
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom ;
+    display: flex;
+    align-items: center;
+}
+#momin{
+    width: 600px;
+    margin-bottom: -5px;
+}
+
+/* info */
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px   ;
+}
+
+.info > h4{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.info > h3{
+    font-size: 80px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.info > p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.info > div{
+    display: flex;
+    gap: 30px;
+}
+
+.info > div > button {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#cv {
+    color: white;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+#contact {
+    color: #FD6E0A;
+    display: flex;
+    background-color:#FFF8F3 ;
+    gap: 5px;
+    align-items: center;
+    border: 1px solid #FD6E0A;
+}
