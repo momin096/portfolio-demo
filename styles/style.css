@@ -167,3 +167,60 @@ header{
     font-size: 20px;
     font-weight: 700;
 }
+
+/* what i do  */
+
+.what-i-do{
+    max-width: 1430px;
+    margin: 100px auto;
+    
+}
+
+.what-i-do-title{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    }
+
+.what-i-do-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    text-align: center;
+}
+
+.card-container{
+    margin: 50px 0;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.card{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid lightgray;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.card:hover{
+    box-shadow: 2px 3px 10px lightblue;
+}
+.card > img{
+    width: 50px;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.card-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
