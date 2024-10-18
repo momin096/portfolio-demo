@@ -346,9 +346,7 @@ textarea {
 
 /* Responsive area */
 
-.hide {
-    display: none;
-}
+
 
 @media screen and (max-width: 675px) {
 
@@ -370,7 +368,7 @@ textarea {
     }
 
     #momin{
-        max-width: 400px;
+        max-width: 500px;
         width: 100%;
     }
 
@@ -379,7 +377,7 @@ textarea {
     }
 
     .info > h3{
-        font-size: 55px;
+        font-size: 3rem;
     }
 
 
