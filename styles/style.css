@@ -76,7 +76,7 @@ header {
 }
 
 #momin {
-    width: 600px;
+    max-width: 600px;
     margin-bottom: -5px;
 }
 
@@ -352,6 +352,51 @@ textarea {
 
 @media screen and (max-width: 675px) {
 
+    /* Header */
+
+    .nav > ul{
+        display: none;
+    }
+
+    header{
+        padding: 20px;
+        padding-bottom: 0;
+    }
+
+    .banner{
+        background-image: none;
+        flex-direction: column;
+
+    }
+
+    #momin{
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .info > h4 {
+        font-size: 35px;
+    }
+
+    .info > h3{
+        font-size: 55px;
+    }
+
+
+    .info > div{
+        flex-direction: column;
+    }
+    /* About Me */
+
+    .about-me{
+        padding: 50px 20px;
+    }
+
+    .info-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+
     /* What i do */
 
     .what-i-do {
@@ -366,10 +411,7 @@ textarea {
         padding: 20px;
     }
 
-    .card{
-       
-        
-    }
+
 
 
 
